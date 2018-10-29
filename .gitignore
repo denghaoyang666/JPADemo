@@ -1,0 +1,26 @@
+
+#.gitignore for java
+*.class
+
+# .gitignore for maven 
+/target/*
+target/
+*.releaseBackup
+
+# IDE support files
+/.classpath
+/.launch
+/.project
+/.settings
+/*.launch
+/*.tmproj
+/ivy*
+/eclipse
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+*.log
+*.log.*
+.idea/*
